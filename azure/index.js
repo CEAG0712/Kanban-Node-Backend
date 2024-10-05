@@ -37,3 +37,5 @@ app.listen(port, () => {
     `welcome to the kanban board NodeJS backend listening on port ${port}`
   );
 });
+
+app.get("/", (req, res) => res.json({ message: "Kanban board api" }));
