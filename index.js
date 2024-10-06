@@ -29,6 +29,8 @@ app.use(
 
 app.use(cookieParser());
 // refactor to different file, single app.use for all routes
+app.get("/", (req, res) => res.json({ message: "Kanban board api" }));
+
 app.use("/api/v1/tasks", taskRoutes);
 app.use("/api/v1/users", userRoutes);
 
@@ -37,5 +39,3 @@ app.listen(port, () => {
     `welcome to the kanban board NodeJS backend listening on port ${port}`
   );
 });
-
-app.get("/", (req, res) => res.json({ message: "Kanban board api" }));
