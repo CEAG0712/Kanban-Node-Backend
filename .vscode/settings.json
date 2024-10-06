@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/2395e48e-1b4f-48ee-b08a-795421f350a6/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/kanban-board-api",
+  "appService.deploySubpath": "."
+}
