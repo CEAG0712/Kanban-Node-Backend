@@ -23,7 +23,7 @@ app.use(
       "http://localhost:3000",
       "http://localhost:3001",
       "http://localhost:3002",
-      "https://lemon-desert-086fd8310.5.azurestaticapps.net",
+      "https://white-hill-01b898f10.5.azurestaticapps.net",
     ],
   })
 );
