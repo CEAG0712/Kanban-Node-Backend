@@ -23,7 +23,6 @@ app.use(
       "http://localhost:3000",
       "http://localhost:3001",
       "http://localhost:3002",
-      "https://white-hill-01b898f10.5.azurestaticapps.net",
       "https://ashy-island-0a6f85110.5.azurestaticapps.net",
     ],
   })
