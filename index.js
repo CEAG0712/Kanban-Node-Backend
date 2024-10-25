@@ -20,10 +20,10 @@ app.use(
   cors({
     credentials: true,
     origin: [
-      "https://ashy-island-0a6f85110.5.azurestaticapps.net",
       "http://localhost:3000",
       "http://localhost:3001",
       "http://localhost:3002",
+      "https://ashy-island-0a6f85110.5.azurestaticapps.net",
     ],
   })
 );
